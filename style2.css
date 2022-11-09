@@ -1,0 +1,370 @@
+body {
+    background-color: rgb(205, 211, 234);
+    font-family: sans-serif;
+    margin-top: 0;
+}
+section {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    width: inherit;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+    mix
+}
+
+.first-view {
+    position:relative;
+    top: 0;
+    background: rgb(178, 177, 169);
+    z-index: -1;
+    height: 720px;
+}
+.hero-img {
+    background-image: url('zi.png');
+    filter: drop-shadow(10px 20px 0px rgb(178, 177, 169)) drop-shadow(20px 10px 0px rgb(0, 225, 255)) drop-shadow(15px 0px 0px rgb(254, 161, 47)) drop-shadow(15px 0px 0px rgb(254, 226, 47));
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height:100%;
+    z-index:-10;
+}
+.second-view {
+    position:relative;
+    width: 100vw;
+    background: rgb(254, 253, 251);
+    text-transform: uppercase;
+}
+.second-view h1 {
+    font-family: fantasy;
+    padding-top: 2em;
+    padding-left: 1em;
+    padding-bottom: 1em;
+    flex-wrap: wrap;
+}
+.products {
+    display:flex;
+    justify-content: start;
+    padding-bottom: 5em;
+    width: 80%;
+    overflow-x: scroll;
+    
+    margin-inline: auto;
+    -ms-overflow-style: none;  /* Internet Explorer 10+ */
+    scrollbar-width: none;  /* Firefox */
+}
+.products::-webkit-scrollbar { 
+    display: none;  /* Safari and Chrome */
+}
+.product {
+    background-color: rgb(223, 220, 216);
+    padding-bottom: 2em;
+    font-weight:300;
+    margin-right: 1em;
+}
+.des-prod {
+    padding-left: 0.25em;
+}
+.product h3 {
+    padding-top: 0.7em
+}
+.img-prod {
+    height: 19em;
+    width: 20em;
+    object-fit: cover;
+    padding: 0.25em;
+}
+.arrow {
+    width: 1em;
+    height: 1em;
+    padding-right: 1em;
+    align-self: center;    
+}
+.flex {
+    display: flex;
+    justify-content: space-between;
+}
+.suptitle {
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size:xxx-large;
+    position: absolute;
+    font-family: family;
+    top: 3em;
+    left: 2em;
+}
+.suptitle div:nth-child(odd) {
+    background-color: white;
+    transform: rotate(355deg);
+    margin: -5px 0 0 0;
+}
+
+.thirdView {
+    background-color: rgb(255, 143, 5);
+    overflow: hidden;
+    position: relative;
+}
+.herokun {
+    margin-bottom: -5px;
+    filter: drop-shadow(10px 20px 0px rgb(178, 177, 169)) drop-shadow(20px 10px 0px rgb(0, 225, 255)) drop-shadow(15px 0px 0px rgb(254, 161, 47)) drop-shadow(-15px 0px 0px rgb(254, 226, 47));
+
+}
+.white {
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    padding-top:3em;
+}
+.big {
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size:xxx-large;
+    font-family: inherit;
+    -webkit-text-stroke: thick;
+    margin-bottom: 0.4em;
+}
+.bold {
+    font-weight: 900;
+}
+.col-6 img {
+    width: 100%;
+    height: 69%;
+    object-fit: cover;
+} 
+.recline {
+    transform: skewY(357deg);
+    background-color: rgb(255, 255, 255);
+    height: 100%;
+    width: 80%;
+    right: 1.9em;
+    position: absolute;
+}
+.cta-txt:first-child {
+    position:relative;
+}
+.cta {
+    position: absolute;
+    top: 16em;
+    right: 8em;
+}
+.cta-txt {
+    display: flex;
+    flex-flow: column;
+}
+.cta2 {
+    margin-inline: auto;
+    width: 60%;
+}
+
+.footnav {
+    display: flex;
+    flex-flow: column;
+}
+.footnav li {
+    text-transform:capitalize;
+}
+.btn {
+    border-radius: 0.75em;
+    margin-left: 2em;
+    text-transform: uppercase;
+    color: white;
+    background: black;
+    padding: 0.6em 2em;
+    width: max-content;
+}
+h1, h3, h5 {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+.blue {
+    height: 12em;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+.blue:nth-child(even) {
+    background: rgb(26, 193, 157);
+}
+.blue:nth-child(odd) {
+    background: rgb(193, 57, 26);
+}
+.blue img {
+    width: 12em;
+    padding: 1em;
+    object-fit: cover;
+    mix-blend-mode: color-burn;
+}
+.logo{
+    font-weight:bolder;
+    font-size:xx-large;
+    font-style: italic;
+    font-family: fantasy;
+    color: black;
+    margin-left: 2em;
+}
+.logo a {
+    color: black;
+}
+.container {
+    width: 1260px;
+    margin-inline: auto;
+}
+.container::after {
+    content: " ";
+    clear: both;
+    display: block;
+}
+nav {
+    display: flex;
+}
+ul {
+    display: flex;
+    justify-content: center;
+    margin-right: 1em;
+    text-transform: uppercase;
+}
+ul li {
+    list-style: none;
+    padding: 8px;
+}
+.medsosico {
+    width: 3em;
+    margin-right: 1em;
+}
+.col {
+    padding: 10px;
+    float: left;
+}
+
+.col .feature-item {
+    height: 100px;
+}
+
+.col-12 {
+    width: calc((100%) - 20px);
+}
+
+.col-11 {
+    width: calc((100% * 11/12) - 20px);
+}
+
+.col-10 {
+    width: calc((100% * 10/12) - 20px);
+}
+
+.col-9 {
+    width: calc((100% * 9/12) - 20px);
+}
+
+.col-8 {
+    width: calc((100% * 8/12) - 20px);
+}
+
+.col-7 {
+    width: calc((100% * 7/12) - 20px);
+}
+
+.col-6 {
+    width: calc((100% * 6/12) - 20px);
+}
+
+.col-5 {
+    width: calc((100% * 5/12) - 20px);
+}
+
+.col-4 {
+    width: calc((100% * 4/12) - 20px);
+}
+
+.col-3 {
+    width: calc((100% * 3/12) - 20px);
+}
+
+.col-2 {
+    width: calc((100% * 2/12) - 20px);
+}
+.sign {
+    display:flex;
+    align-content:center;
+    padding: 1em;
+}
+.sign .btn {
+    border-radius: 0.75em;
+    margin-left: 2em;
+    text-transform: uppercase;
+    color: white;
+    background: black;
+    padding-inline: 2em;
+}
+.left {
+    width: 48%;
+    margin: 0 0 0 1em;
+    background: rgb(0, 225, 255)
+}
+.left h1 {
+    font-size: 7em;
+    margin-bottom: 0;
+    margin-left: 0.2em;
+}
+.left p {
+    font-size: 1em;
+    color:rgb(117, 117, 117);
+    margin-left: 0.6em;
+}
+.play img {
+    width: 3em;
+    height: 3em;
+}
+.play {
+    background: black;
+    color: white;
+    border-radius: 0.5em;
+    width: fit-content;
+    height: fit-content;
+    margin-left:1em;
+}
+.pbtn {
+    display: flex;
+    padding: 0.5em;
+    align-items: center;
+}
+.pbtn .text {
+    display:flex;
+    flex-flow:column
+}
+.pbtn .text h6, h4 {
+    margin:0;
+
+}
+.pbtn .text h6 {
+    text-transform: uppercase;
+}
+
+.pbtn .text h4 {
+    font-weight: black;
+}
+.playstore {
+    display: flex;
+    margin-left: 0.5em;
+    margin-top: 3em;
+    position: absolute;
+}
+.appl {
+    width: 11.7em
+}
+#particle-canvas {
+    width: 80%;
+    margin-inline:auto;
+    height: 350px;
+    z-index: -1;
+}

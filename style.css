@@ -1,0 +1,125 @@
+body {
+    background-color: rgb(205, 211, 234);
+    font-family: sans-serif;
+}
+hero {
+    background-image: url('ze.jpg');
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height:100%;
+    z-index:-10;
+}
+.container {
+    width: 1260px;
+    margin-inline: auto;
+}
+a {
+    text-decoration: none;
+}
+
+.logo{
+    font-weight:bolder;
+    font-size:xx-large;
+    font-style: italic;
+    font-family: fantasy;
+    color: black;
+}
+.logo a {
+    color: black;
+}
+
+.container::after {
+    content: " ";
+    clear: both;
+    display: block;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+nav {
+    display: flex;
+
+}
+nav ul {
+    display: flex;
+    justify-content: center;
+    margin-right: 1em;
+    text-transform: uppercase;
+}
+nav ul li {
+    list-style: none;
+    padding: 8px;
+}
+.sign {
+    display:flex;
+    align-content:center;
+    padding: 1em;
+}
+.sign .btn {
+    border-radius: 0.75em;
+    margin-left: 2em;
+    text-transform: uppercase;
+    color: white;
+    background: black;
+    padding-inline: 2em;
+}
+.left {
+    width: 48%;
+    margin: 0 0 0 1em;
+    background: rgb(0, 225, 255)
+}
+.left h1 {
+    font-size: 7em;
+    margin-bottom: 0;
+    margin-left: 0.2em;
+}
+.left p {
+    font-size: 1em;
+    color:rgb(117, 117, 117);
+    margin-left: 0.6em;
+}
+.play img {
+    width: 3em;
+    height: 3em;
+}
+.play {
+    background: black;
+    color: white;
+    border-radius: 0.5em;
+    width: fit-content;
+    height: fit-content;
+    margin-left:1em;
+}
+.pbtn {
+    display: flex;
+    padding: 0.5em;
+    align-items: center;
+}
+.pbtn .text {
+    display:flex;
+    flex-flow:column
+}
+.pbtn .text h6, h4 {
+    margin:0;
+
+}
+.pbtn .text h6 {
+    text-transform: uppercase;
+}
+
+.pbtn .text h4 {
+    font-weight: black;
+}
+.playstore {
+    display: flex;
+    margin-left: 0.5em;
+}
+.appl {
+    width: 11.7em
+    
+}
