@@ -6,22 +6,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="style2.css">
+    <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
     <div class="container">
         <header>
             <div class="logo"><a href="">RONDOVISION</a></div>
             <nav>
                 <ul>
-                    <li><a href="">Home</a></li>
+                    <li><a class="active" href="">Home</a></li>
                     <li><a href="">Best Seller</a></li>
                     <li><a href="">All Under $30</a></li>
                     <li><a href="">Reviews</a></li>
                 </ul>
                 <div class="sign">
-                    <button class="btn">Sign Up</button>
+                    <a href="" type="button" class="btn btn-hvr">Sign Up</a>
                 </div>
             </nav>
         </header>
@@ -36,39 +35,29 @@
                 <div class="herotext">
                     <h1>With</h1>
                 </div>
-                <div class="herotext" style="background-color: orange;">
-                    <h1>Natural</h1>
+                <div class="herotext">
+                    <a href=""><h1>Natural</h1></a>
                 </div>
                 <div class="herotext">
                     <h1>Twist</h1>
                 </div>
             </div>
-            <div style="margin-top:28em; margin-left: 5em" class="playstore">
-                <button class="play" href="">
-                    <div class="pbtn"><img style="filter: invert(1);" src="apple.png" alt="">
-                        <div class="text">
-                            <h6>Download on the</h6>
-                            <h4>App Store</h4>
-                        </div>
-                    </div>
-                </button>
-                <button class="play" href="">
-                    <div class="pbtn"><img src="google-play.png" alt="">
-                        <div class="text">
-                            <h6>Get it On</h6>
-                            <h4>Google Play</h4>
-                        </div>
-                    </div>
-                </button>
-            </div>
+        </div>
+        <div class="playstore col-4">
+            <button type="button" class="play" href="">
+                <img src="/img/AppStore.png" alt="">
+            </button>
+            <button type="button" class="play" href="">
+                <img src="/img/PlayStore.png" alt="">
+            </button>
         </div>
     </section>
-    <section>
-        <div class="container  second-view">
+    <section id="second-view">
+        <div class="container">
             <h1>2054 new Arrivals</h1>
             <div class="products">
                 <div class="product">
-                    <img class="img-prod" src="Shirt1.webp" alt="" srcset="">
+                    <img class="img-prod" src="img/Shirt1.webp" alt="" srcset="">
                     <div class="flex">
                         <div class="des-prod">
                             <h3>Hoodies & Sweetshirt</h3>
@@ -83,7 +72,7 @@
 
                 </div>
                 <div class="product">
-                    <img class="img-prod" src="a.jpg" alt="">
+                    <img class="img-prod" src="img/a.jpg" alt="">
                     <div class="flex">
                         <div class="des-prod">
                             <h3>Coat & Parkas</h3>
@@ -96,8 +85,8 @@
                         </svg>
                     </div>
                 </div>
-                <div class="product">
-                    <img class="img-prod" src="05.webp" alt="">
+                <div type="button" class="product">
+                    <img class="img-prod" src="img/05.webp" alt="">
                     <div class="flex">
                         <div class="des-prod">
                             <h3>Tees & T-Shirt</h3>
@@ -111,7 +100,7 @@
                     </div>
                 </div>
                 <div class="product">
-                    <img class="img-prod" src="Shirt1.webp" alt="" srcset="">
+                    <img class="img-prod" src="img/Shirt1.webp" alt="" srcset="">
                     <div class="flex">
                         <div class="des-prod">
                             <h3>Hoodies & Sweetshirt</h3>
@@ -123,10 +112,9 @@
                                 clip-rule="evenodd" />
                         </svg>
                     </div>
-
                 </div>
                 <div class="product">
-                    <img class="img-prod" src="a.jpg" alt="">
+                    <img class="img-prod" src="img/a.jpg" alt="">
                     <div class="flex">
                         <div class="des-prod">
                             <h3>Coat & Parkas</h3>
@@ -140,7 +128,7 @@
                     </div>
                 </div>
                 <div class="product">
-                    <img class="img-prod" src="05.webp" alt="">
+                    <img class="img-prod" src="img/05.webp" alt="">
                     <div class="flex">
                         <div class="des-prod">
                             <h3>Tees & T-Shirt</h3>
@@ -156,10 +144,9 @@
             </div>
         </div>
     </section>
-
     <section>
         <div class="container thirdView">
-            <img class="herokun" src="pngwing.png" alt="">
+            <img class="herokun" src="img/pngwing.png" alt="">
             <div class="cta">
                 <div class="cta-txt big">
                     <h1 style="z-index: 1;">Payday</h1>
@@ -173,7 +160,7 @@
                     <p style="margin-top:0.3em;">voucher code for another surprise yeahh</p>
                     <p class="bold">1 june - 16 june 2021</p>
                     <p>*Terms & Conditions apply</p>
-                    <button style="margin-top: 2em;" class="btn"> Shop Now</button>
+                    <button style="margin-top: 2em;" class="btn btn-hvr"> Shop Now</button>
                 </div>
             </div>
         </div>
@@ -186,32 +173,32 @@
                     <h1>We Available On Other Store</h1>
                     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
                         Mollitia velit earum neque.</p>
-                    <button style="margin-top: 2em;" class="btn">Visit Them</button>
+                    <button style="margin-top: 2em;" class="btn btn-hvr">Visit Them</button>
                 </div>
 
             </div>
             <div class="col-7" style="padding: 2em; display: flex; flex-wrap:wrap;justify-content: center;">
-                <div class="col-4 blue"><img src="pngegg.png" alt="" srcset=""></div>
+                <div class="col-4 blue"><img src="img/pngegg.png" alt="" srcset=""></div>
                 <div class="col-4 blue"><img
-                        src="Graffiti Happy Emoji Sprayed Black On Stock Vector (Royalty Free) 621614798 _ Shutterstock.png"
+                        src="img/Graffiti Happy Emoji Sprayed Black On Stock Vector (Royalty Free) 621614798 _ Shutterstock.png"
                         alt="">
                 </div>
-                <div class="col-4 blue"><img src="Logo concepts_.jfif" alt=""></div>
-                <div class="col-4 blue"><img src="Rox Streetwear Logo.png" alt=""></div>
-                <div class="col-4 blue"><img src="Ciao, Salut.png" alt=""></div>
-                <div class="col-4 blue"><img src="mura.jfif" alt=""></div>
+                <div class="col-4 blue"><img src="img/Logo concepts_.jfif" alt=""></div>
+                <div class="col-4 blue"><img src="img/Rox Streetwear Logo.png" alt=""></div>
+                <div class="col-4 blue"><img src="img/Ciao, Salut.png" alt=""></div>
+                <div class="col-4 blue"><img src="img/mura.jfif" alt=""></div>
             </div>
         </div>
         <div class="container white" style="padding-top:5em;flex-flow: column; justify-content: center;">
             <h1 style="width: 100%; margin-left:2em;">Young's Favourite Apparel</h1>
             <br><br><br><br>
             <div class="container flex" style="justify-content: center;margin-top:3em;">
-                <div class="col-6">
-                    <img src="Supreme Spring_Summer 2021 Lookbook Full Outfit (15 of 32) - buyvise.jfif" alt="">
-                    <div style="display: flex; justify-content: space-between">
+                <button type="button" class="manripple col-6">
+                    <img src="img/Supreme Spring_Summer 2021 Lookbook Full Outfit (15 of 32) - buyvise.jfif" alt="">
+                    <div style="display: flex; justify-content: space-between; margin-top: 18px">
                         <div class="description">
                             <h1>Outstanding style on Instragram</h1>
-                            <p>Buy Now</p>
+                            <h3>Buy Now</h3>
                         </div>
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="arrow">
                             <path fill-rule="evenodd"
@@ -219,13 +206,13 @@
                                 clip-rule="evenodd" />
                         </svg>
                     </div>
-                </div>
-                <div class="col-6">
-                    <img src="R69 Old English Text Tee - L _ Blue.jfif" alt="">
-                    <div style="display: flex; justify-content: space-between">
+                </button>
+                <button type="button" class="manripple col-6">
+                    <img src="img/R69 Old English Text Tee - L _ Blue.jfif" alt="">
+                    <div style="display: flex; justify-content: space-between; margin-top: 18px">
                         <div class="description">
                             <h1>All you can wear!</h1>
-                            <p>Buy Now</p>
+                            <h5>Buy Now</h5>
                         </div>
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="arrow">
                             <path fill-rule="evenodd"
@@ -233,7 +220,7 @@
                                 clip-rule="evenodd" />
                         </svg>
                     </div>
-                </div>
+                </button>
             </div>
         </div>
         <div style="position: relative; align-items: center;" class="container white">
@@ -244,7 +231,7 @@
                 <p>Get 10% off just by installing the app now</p>
                 <div class="playstore">
                     <button class="play" href="">
-                        <div class="pbtn"><img style="filter: invert(1);" src="apple.png" alt="">
+                        <div class="pbtn"><img style="filter: invert(1);" src="img/apple.png" alt="">
                             <div class="text">
                                 <h6>Download on the</h6>
                                 <h4>App Store</h4>
@@ -252,7 +239,7 @@
                         </div>
                     </button>
                     <button class="play" href="">
-                        <div class="pbtn"><img src="google-play.png" alt="">
+                        <div class="pbtn"><img src="img/google-play.png" alt="">
                             <div class="text">
                                 <h6>Get it On</h6>
                                 <h4>Google Play</h4>
@@ -261,7 +248,7 @@
                     </button>
                 </div>
             </div>
-            <img style="width: 30em;margin-top: -14em;margin-inline: auto;mix-blend-mode: multiply;" src="abe.webp"
+            <img style="width: 30em;margin-top: -14em;margin-inline: auto;mix-blend-mode: multiply;" src="img/abe.webp"
                 alt="">
         </div>
     </section>
@@ -274,7 +261,7 @@
                     <input style="border-radius: 1em; z-index: 60;
                                     width: 19em;
                                     padding: 1em;" type="text">
-                    <input style="padding: 0 2em;margin-left: -2em;z-index: 60" class="btn" type="submit">
+                    <input style="padding: 0 2em;margin-left: -2em;z-index: 60" class="btn btn-hvr" type="submit">
                 </form>
             </div>
             <div style="position: absolute;z-index: 10;mix-blend-mode: multiply;" id="particle-canvas"></div>

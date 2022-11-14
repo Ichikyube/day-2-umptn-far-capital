@@ -1,3 +1,50 @@
+a {
+    transition: 0.3s;
+}
+.logo a:hover {
+    color: white;
+    text-shadow: 3px 3px 2px black;
+}
+nav li a {
+    opacity: 50%;
+}
+nav li a.active {
+    opacity: 100%;
+}
+nav li a:hover {
+    -webkit-text-stroke: thick;
+    color: purple;
+}
+
+.sign {
+    display:flex;
+    align-content:center;
+    padding: 1em;
+}
+.btn {
+    border-radius: 0.75em;
+    margin-left: 2em;
+    text-transform: uppercase;
+    color: white;
+    background: black;
+    padding: 0.6em 2em;
+    width: max-content;
+}
+.sign .btn {
+    border-radius: 0.75em;
+    margin-left: 2em;
+    text-transform: uppercase;
+    color: white;
+    background: black;
+    padding-inline: 2em;
+}
+.btn-hvr {
+    transition: 0.3s;
+}
+.btn-hvr:hover {
+    font-weight: bold;
+    outline: 2px solid blue;
+}
 body {
     background-color: rgb(205, 211, 234);
     font-family: sans-serif;
@@ -16,9 +63,7 @@ header {
     position: fixed;
     top: 0;
     z-index: 1000;
-    mix
 }
-
 .first-view {
     position:relative;
     top: 0;
@@ -106,7 +151,6 @@ header {
     transform: rotate(355deg);
     margin: -5px 0 0 0;
 }
-
 .thirdView {
     background-color: rgb(255, 143, 5);
     overflow: hidden;
@@ -170,15 +214,7 @@ header {
 .footnav li {
     text-transform:capitalize;
 }
-.btn {
-    border-radius: 0.75em;
-    margin-left: 2em;
-    text-transform: uppercase;
-    color: white;
-    background: black;
-    padding: 0.6em 2em;
-    width: max-content;
-}
+
 h1, h3, h5 {
     margin: 0;
 }
@@ -293,19 +329,6 @@ ul li {
 .col-2 {
     width: calc((100% * 2/12) - 20px);
 }
-.sign {
-    display:flex;
-    align-content:center;
-    padding: 1em;
-}
-.sign .btn {
-    border-radius: 0.75em;
-    margin-left: 2em;
-    text-transform: uppercase;
-    color: white;
-    background: black;
-    padding-inline: 2em;
-}
 .left {
     width: 48%;
     margin: 0 0 0 1em;
@@ -321,17 +344,32 @@ ul li {
     color:rgb(117, 117, 117);
     margin-left: 0.6em;
 }
+
+.playstore {
+    display: flex;
+    margin-left: 0.5em;
+    margin-top: 3em;
+    position: absolute;
+}
 .play img {
     width: 3em;
     height: 3em;
 }
 .play {
-    background: black;
+    background-color: #4CAF50; /* Green */
+    border: none;
     color: white;
-    border-radius: 0.5em;
-    width: fit-content;
-    height: fit-content;
-    margin-left:1em;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+.play:hover {
+    background: white;
 }
 .pbtn {
     display: flex;
@@ -352,12 +390,6 @@ ul li {
 
 .pbtn .text h4 {
     font-weight: black;
-}
-.playstore {
-    display: flex;
-    margin-left: 0.5em;
-    margin-top: 3em;
-    position: absolute;
 }
 .appl {
     width: 11.7em

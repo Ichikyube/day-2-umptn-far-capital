@@ -1,0 +1,76 @@
+body {
+    background-color: rgb(205, 211, 234);
+    font-family: sans-serif;
+    margin-top: 0;
+}
+
+section {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    width: inherit;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+}
+.logo {
+    font-weight: bolder;
+    font-size: xx-large;
+    font-style: italic;
+    font-family: fantasy;
+    color: black;
+    margin-left: 2em;
+
+    a {
+        color: black;
+    }
+}
+.left {
+    width: 48%;
+    margin: 0 0 0 1em;
+    background: rgb(0, 225, 255);
+
+    h1 {
+        font-size: 7em;
+        margin-bottom: 0;
+        margin-left: 0.2em;
+    }
+
+    p {
+        font-size: 1em;
+        color: rgb(117, 117, 117);
+        margin-left: 0.6em;
+    }
+}
+
+h1,
+h3,
+h4,
+h5 {
+    margin: 0;
+}
+a {
+    text-decoration: none;
+}
+
+
+nav {
+    display: flex;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    margin-right: 1em;
+    text-transform: uppercase;
+
+    li {
+        list-style: none;
+        padding: 8px;
+    }
+}

@@ -1,0 +1,72 @@
+.btn {
+    border-radius: 0.75em;
+    margin-left: 2em;
+    text-transform: uppercase;
+    color: white;
+    background: black;
+    padding: 0.6em 2em;
+    width: max-content;
+}
+.sign {
+    display: flex;
+    align-content: center;
+    padding: 1em;
+
+    .btn {
+        border-radius: 0.75em;
+        margin-left: 2em;
+        text-transform: uppercase;
+        color: white;
+        background: black;
+        padding-inline: 2em;
+    }
+}
+.play {
+    img {
+        width: 3em;
+        height: 3em;
+    }
+
+    background: black;
+    color: white;
+    border-radius: 0.5em;
+    width: fit-content;
+    height: fit-content;
+    margin-left: 1em;
+}
+
+.pbtn {
+    display: flex;
+    padding: 0.5em;
+    align-items: center;
+
+    .text {
+        display: flex;
+        flex-flow: column;
+
+        h6 {
+            margin: 0;
+        }
+    }
+}
+
+.pbtn .text {
+    h6 {
+        text-transform: uppercase;
+    }
+
+    h4 {
+        font-weight: black;
+    }
+}
+
+.playstore {
+    display: flex;
+    margin-left: 0.5em;
+    margin-top: 3em;
+    position: absolute;
+}
+
+.appl {
+    width: 11.7em;
+}

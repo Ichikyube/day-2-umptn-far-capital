@@ -1,0 +1,65 @@
+
+.col {
+    padding: 10px;
+    float: left;
+
+    .feature-item {
+        height: 100px;
+    }
+}
+
+.col-12 {
+    width: calc((100%) - 20px);
+}
+
+.col-11 {
+    width: calc((100% * 11/12) - 20px);
+}
+
+.col-10 {
+    width: calc((100% * 10/12) - 20px);
+}
+
+.col-9 {
+    width: calc((100% * 9/12) - 20px);
+}
+
+.col-8 {
+    width: calc((100% * 8/12) - 20px);
+}
+
+.col-7 {
+    width: calc((100% * 7/12) - 20px);
+}
+
+.col-6 {
+    width: calc((100% * 6/12) - 20px);
+}
+
+.col-5 {
+    width: calc((100% * 5/12) - 20px);
+}
+
+.col-4 {
+    width: calc((100% * 4/12) - 20px);
+}
+
+.col-3 {
+    width: calc((100% * 3/12) - 20px);
+}
+
+.col-2 {
+    width: calc((100% * 2/12) - 20px);
+}
+
+
+.container {
+    width: 1260px;
+    margin-inline: auto;
+
+    &::after {
+        content: " ";
+        clear: both;
+        display: block;
+    }
+}
