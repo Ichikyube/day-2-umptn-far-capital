@@ -193,9 +193,9 @@
             <h1 style="width: 100%; margin-left:2em;">Young's Favourite Apparel</h1>
             <br><br><br><br>
             <div class="container flex" style="justify-content: center;margin-top:3em;">
-                <button type="button" class="manripple col-6">
+                <button type="button" class="man col-6">
                     <img src="img/Supreme Spring_Summer 2021 Lookbook Full Outfit (15 of 32) - buyvise.jfif" alt="">
-                    <div style="display: flex; justify-content: space-between; margin-top: 18px">
+                    <div class="desc-container">
                         <div class="description">
                             <h1>Outstanding style on Instragram</h1>
                             <h3>Buy Now</h3>
@@ -207,9 +207,9 @@
                         </svg>
                     </div>
                 </button>
-                <button type="button" class="manripple col-6">
+                <button type="button" class="man col-6">
                     <img src="img/R69 Old English Text Tee - L _ Blue.jfif" alt="">
-                    <div style="display: flex; justify-content: space-between; margin-top: 18px">
+                    <div class="desc-container">
                         <div class="description">
                             <h1>All you can wear!</h1>
                             <h5>Buy Now</h5>
@@ -223,37 +223,32 @@
                 </button>
             </div>
         </div>
-        <div style="position: relative; align-items: center;" class="container white">
+        <div id="download" class="container white glitch-var">
             <div style="margin-left: 6em;
-                        align-self: baseline;
+                        align-self: center;
                         display: inline;">
-                <h1>Download App & Get the Voucher!</h1>
-                <p>Get 10% off just by installing the app now</p>
-                <div class="playstore">
-                    <button class="play" href="">
-                        <div class="pbtn"><img style="filter: invert(1);" src="img/apple.png" alt="">
-                            <div class="text">
-                                <h6>Download on the</h6>
-                                <h4>App Store</h4>
-                            </div>
-                        </div>
-                    </button>
-                    <button class="play" href="">
-                        <div class="pbtn"><img src="img/google-play.png" alt="">
-                            <div class="text">
-                                <h6>Get it On</h6>
-                                <h4>Google Play</h4>
-                            </div>
-                        </div>
-                    </button>
-                </div>
+                <h1 class="content__title">Download App & Get the Voucher!</h1>
+                <p class="content__text">Get 10% off just by installing the app now</p>
+                <div class="playstore col-4">
+                  <button type="button" class="play" href="">
+                      <img src="/img/AppStore.png" alt="">
+                  </button>
+                  <button type="button" class="play" href="">
+                      <img src="/img/PlayStore.png" alt="">
+                  </button>
+              </div>
             </div>
-            <img style="width: 30em;margin-top: -14em;margin-inline: auto;mix-blend-mode: multiply;" src="img/abe.webp"
-                alt="">
+            <div class="glitch">
+              <div class="glitch__img"></div>
+              <div class="glitch__img"></div>
+              <div class="glitch__img"></div>
+              <div class="glitch__img"></div>
+              <div class="glitch__img"></div>
+            </div>
         </div>
     </section>
     <section id="SignUpNow">
-        <div style="overflow: hidden;justify-content: center; height: 350px; background:orange" class="container flex">
+        <div class="container flex">
             <div style="margin: 5em 0; text-align: center;">
                 <h1>Join Rondovision Community to Get Monthly Promo</h1>
                 <p>Type your email and send us multiple random message now!</p>
@@ -264,7 +259,7 @@
                     <input style="padding: 0 2em;margin-left: -2em;z-index: 60" class="btn btn-hvr" type="submit">
                 </form>
             </div>
-            <div style="position: absolute;z-index: 10;mix-blend-mode: multiply;" id="particle-canvas"></div>
+            <div id="particle-canvas"></div>
         </div>
     </section>
     <footer style="color: white;">
